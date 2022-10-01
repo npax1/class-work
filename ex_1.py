@@ -3,5 +3,6 @@ end=int(input("веди число"))
 while start <= end:
     print(start)
     start=start+1
-    if start
+    if start/2
+        start = +1
 
