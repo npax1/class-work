@@ -4,5 +4,5 @@ if start%2==0:
     start+=1
 while start<end:
     print(f'{start}')
-else:
-    print("end")
+    start +=2
+
