@@ -1,4 +1,8 @@
-i=0
-while i <10:
-    print(i)
-    i=+2
+start=int(input("веди число і"))
+end=int(input("веди число"))
+if start%2==0:
+    start+=1
+while start<end:
+    print(f'{start}')
+else:
+    print("end")
