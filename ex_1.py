@@ -1,8 +1,8 @@
-num=[]
-num1=int(input("start"))
-num2=int(input("end"))
-while num1<=num2:
-    num.append(num1)
-    num+=1
-    for i in num[::-1]:
-        print(i)
+start= int(input("start"))
+end= int(input("end"))
+temp=start
+start=end
+end=temp
+while start>end:
+    start-=1
+    print(f"{start}")
